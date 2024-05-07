@@ -1,4 +1,4 @@
 #!/bin/bash
 
 source venv/bin/activate
-celery -A home.views worker --loglevel=INFO
+celery -A home.tasks worker --loglevel=INFO
